@@ -4,7 +4,7 @@ import './App.css';
 import useTestHook from './useTestHook';
 
 function App() {
-  const { testState } = useTestHook('Hello, World!');
+  const { testState, catFact } = useTestHook('Hello, World!');
   return (
     <div className="App">
       <header className="App-header">
@@ -12,6 +12,7 @@ function App() {
         <p>
           The message is {`${testState}`}
         </p>
+        <p><strong>Cat Fact:</strong> {`${catFact}`}</p>
         <a
           className="App-link"
           href="https://reactjs.org"
