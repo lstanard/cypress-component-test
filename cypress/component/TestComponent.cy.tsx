@@ -1,6 +1,6 @@
 import { mount } from 'cypress/react'
 import App from '../../src/App';
-import useTestHook from '../../src/useTestHook';
+// import useTestHook from '../../src/useTestHook';
 
 describe('<App>', () => {
   beforeEach(() => {
